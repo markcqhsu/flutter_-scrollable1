@@ -52,6 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
         },
         // cacheExtent: 0, //調整緩衝區大小
         itemBuilder: (context, index) {
+          //index參數, 決定在這個位置, 需要渲染出什麼樣的Widget
           print("building: $index");
 
           // return index % 2 == 0
